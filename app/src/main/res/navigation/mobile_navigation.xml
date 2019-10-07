@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.kvectorapp.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Event"
+        android:name="com.example.kvectorapp.ui.events.EventFragment"
+        android:label="Event"
+        tools:layout="@layout/fragment_event" />
+
+    <fragment
+        android:id="@+id/nav_ContactUS"
+        android:name="com.example.kvectorapp.ui.contactus.ContactUsFragment"
+        android:label= "ContactUS"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_About"
+        android:name="com.example.kvectorapp.ui.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_Magazine"
+        android:name="com.example.kvectorapp.ui.magazine.MainMagazineFragment"
+        android:label="Magazine"
+        tools:layout="@layout/fragment_main_magazine" />
+</navigation>

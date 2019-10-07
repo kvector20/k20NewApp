@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/magazine_featured"
+        android:checked="true"
+        android:icon="@drawable/ic_magazine_home"
+        android:iconTint="@color/colorAccent"
+        android:title="Featured" />
+
+    <item
+        android:id="@+id/magazine_issues"
+        android:icon="@drawable/ic_magazine_featured"
+        android:iconTint="@color/colorAccent"
+        android:title="issues" />
+
+    <item
+        android:id="@+id/magazine_person"
+        android:icon="@drawable/ic_mag_person"
+        android:iconTint="@color/colorAccent"
+        android:title="person" />
+
+</menu>
