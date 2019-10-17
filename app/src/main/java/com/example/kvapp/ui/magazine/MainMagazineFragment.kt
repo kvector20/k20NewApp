@@ -26,6 +26,7 @@ class MainMagazineFragment : Fragment(), BottomNavigationView.OnNavigationItemSe
     val issues=Issues_Fragment()
 
 
+
     private lateinit var magazineViewModel: MagazineViewModel
     lateinit var homeViewModel: HomeViewModel
 
@@ -51,7 +52,7 @@ class MainMagazineFragment : Fragment(), BottomNavigationView.OnNavigationItemSe
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//        findNavController().navigate(R.id.action_nav_send_to_featuredFragment)
+        setFragment(featured)
         bubbleTabBar.addBubbleListener(object : OnBubbleClickListener {
             override fun onBubbleClick(id: Int) {
                 when (id) {
