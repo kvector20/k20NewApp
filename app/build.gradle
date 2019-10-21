@@ -41,7 +41,10 @@ dependencies {
 //bubbletabber
     implementation 'com.fxn769:bubbletabbar:1.0.1'
 
+//circleImage
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
 
+    
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'

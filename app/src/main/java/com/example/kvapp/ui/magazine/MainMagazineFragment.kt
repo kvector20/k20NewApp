@@ -63,7 +63,8 @@ class MainMagazineFragment : Fragment(), BottomNavigationView.OnNavigationItemSe
             }
         })
     }
-    private fun setFragment(Fra: Fragment) {
+
+     fun setFragment(Fra: Fragment) {
 
        val trans=childFragmentManager.beginTransaction()
         trans.replace(R.id.mag_frag,Fra).commit()

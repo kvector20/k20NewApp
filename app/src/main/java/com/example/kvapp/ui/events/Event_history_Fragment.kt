@@ -19,8 +19,6 @@ class Event_history_Fragment : Fragment() {
         "Career Launcher 6.0 ",
         "K'19 Opening "
     )
-    val eventDetails=Event_Det_Fragment()
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -30,16 +28,6 @@ class Event_history_Fragment : Fragment() {
         val re= view.findViewById<RecyclerView>(R.id.event_history_recyclerView)
         re.adapter=EventHistory_Adapter(EventList,context!!)
         re.layoutManager=LinearLayoutManager(activity)
-        re.setOnClickListener {
-            setFragment(eventDetails)
-        }
         return view
     }
-
-    private fun setFragment(Fra: Fragment) {
-        val trans=childFragmentManager.beginTransaction()
-        trans.replace(R.id.event_history_fra,Fra).commit()
-    }
-
-
 }
