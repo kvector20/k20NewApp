@@ -6,7 +6,7 @@ import retrofit2.converter.moshi.MoshiConverterFactory
 
 //fixed RetrofitAPI
 open class RetrofitAPI {
-    private val baseUrl = "http://127.0.0.1:8000/"
+    private val baseUrl = "kvectorfoundation.com/"
 
     private val moshi: Moshi = Moshi.Builder().build()
     fun getRetrofit(): Retrofit? {
