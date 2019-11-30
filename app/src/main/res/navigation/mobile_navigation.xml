@@ -19,7 +19,7 @@
         tools:layout="@layout/fragment_event" />
 
     <fragment
-        android:id="@+id/nav_ContactUS"
+        android:id="@+id/nav_ContactUs"
         android:name="com.example.kvectorapp.ui.contactus.ContactUsFragment"
         android:label= "ContactUS"
         tools:layout="@layout/fragment_contactus" />

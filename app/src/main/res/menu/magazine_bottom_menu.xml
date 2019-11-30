@@ -5,19 +5,19 @@
         android:id="@+id/magazine_featured"
         android:checked="true"
         android:icon="@drawable/ic_magazine_home"
-        android:iconTint="@color/colorAccent"
+        android:iconTint="@color/black"
         android:title="Featured" />
 
     <item
         android:id="@+id/magazine_issues"
         android:icon="@drawable/ic_magazine_featured"
-        android:iconTint="@color/colorAccent"
+        android:iconTint="@color/black"
         android:title="issues" />
 
     <item
         android:id="@+id/magazine_person"
         android:icon="@drawable/ic_mag_person"
-        android:iconTint="@color/colorAccent"
+        android:iconTint="@color/black"
         android:title="person" />
 
 </menu>

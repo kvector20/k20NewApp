@@ -12,14 +12,15 @@
             android:id="@+id/nav_Event"
             android:title="Event" />
         <item
+            android:id="@+id/nav_Magazine"
+            android:title="Magazine" />
+        <item
             android:id="@+id/nav_ContactUs"
             android:title="Contact Us "/>
+
         <item
             android:id="@+id/nav_About"
             android:title="About" />
-        <item
-            android:id="@+id/nav_Magazine"
-            android:title="Magazine" />
     </group>
 </menu>
 
